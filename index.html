@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Employee Data</title>
+</head>
+<body>
+    
+    <div class="one">New Employees</div>
+
+    <div class="two"><form action="" id="employeeForm">
+
+        <div class="containI">
+
+        <div>
+            <div class="con"><label class="l" for="one" >Enter Name</label>
+                </div>
+                <input type="text" name="" class="on" id="one" placeholder="Enter Name" >
+        </div>
+
+        <div class="middle con">
+            <div><label class="l" for="two" >Enter Profession</label>
+                </div>
+                <input type="text" name="" class="on" id="two" placeholder="Enter Profession">
+        </div>
+
+        <div>
+            <div class="con"><label class="l" for="three" >Enter Age</label>
+                </div>
+                <input type="number" name="" class="on" id="three"  min="1" max="100" step="1" placeholder="Enter age" >
+        </div>
+        
+        </div>
+        
+        <div >
+            <button type="submit" id="btn">Add User</button>
+        </div>
+    
+    </div>
+
+
+    </form></div>
+     
+    <div class="alert" id="alert">
+    </div>
+
+    <div>
+        <div class="one">Added Employees</div>
+        <div class="hy" id="zero">You have 0 Employess.</div>
+        <div  class="hy" id="data"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
